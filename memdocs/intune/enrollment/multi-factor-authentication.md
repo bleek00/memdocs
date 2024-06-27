@@ -53,7 +53,7 @@ To implement this policy, you must assign Microsoft Entra ID P1 or later to user
 
 Complete these steps to enable multi-factor authentication during Microsoft Intune enrollment. 
 
-> [!IMPORTANT]
+> [!IMPORTANT] (this statement is conjuction with this one later on in this article "1. Select **Require multifactor authentication** and **Require device to be marked as compliant**." - i'nm reffering to the second part of it i.e. "Require device to be marked as compliant" - as "mark device as compliant is as same as "Device based access rules*" - In short, the statement says don't apply "mark as compliant" grant rule on "Microsoft Intune enrollment" but the procedure sats the oppsite.
 > Don't configure **Device based access rules** for Microsoft Intune enrollment.  
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).  
